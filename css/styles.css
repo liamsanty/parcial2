@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html {
+    font-size: 60%
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: red; */
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem; */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #300;    
+}
+
+.logo-initials {
+    font-size: 2rem;
+    color: #f0c040;
+    margin-right: 10px ;
+}
+
+.logo-full {
+    font-size: 1rem;
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent; 
+    border-right: 4px solid transparent; 
+    border-top: 4px solid #444; 
+    margin-left: 0.0rem; 
+}
+
+
+.menu-items {
+    display: flex;
+    order: 2;
+    margin-left: auto;
+}
+
+
+.menu-items li {
+    list-style: none;
+    margin: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    /* display: inline-block; */
+    white-space: nowrap;
+    
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+.menu-items a:hover {
+    color: gold;
+}
+
+
+
+.showcase-area {
+    height: 50vh; 
+    background: #a9a9a9;  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20%;
+    font-size: 1.6rem;
+    row-gap: 20px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    margin-top: 1.rem;
+    font-size: 1.rem;
+    color:white;
+
+}
+
+.fa-balance-scale a:hover {
+    color: gold;
+
+}
+
+/* Áreas de práctica */
+.areas-practica {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.practice-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.practice-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+.practice-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.practice-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Sección informativa */
+.informativo {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 250px;
+}
+
+.info-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.credits {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Sección de CONCIENCIA */
+.conciencia {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.conciencia img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Sección de INFORMATIVO */
+.informativo {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background: #e8e8e8;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+.info-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+
